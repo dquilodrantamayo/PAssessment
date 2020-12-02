@@ -1,11 +1,9 @@
-
 import React from 'react';
+import ModuloPlanes from '../Planes/ModuloPlanes';
 
 const Contenido = () => {
     return (
-        <div>
-            contenido
-        </div>
+        <ModuloPlanes/>
     );
 };
 

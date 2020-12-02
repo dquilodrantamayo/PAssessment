@@ -21,15 +21,15 @@ const PAssessment = () => {
             {
                 usuarioConectado?
                     <React.Fragment>
-                        <Cargando/>
                         <BarraNav/>
                         <Contenido/>
+                        <Cargando/>
                     </React.Fragment>
                 :
                     <React.Fragment>
-                        <Cargando/>
                         <BarraNav/>
                         <LoginUsuario/>
+                        <Cargando/>
                     </React.Fragment>
             }
             

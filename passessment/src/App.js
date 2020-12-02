@@ -1,6 +1,8 @@
 import React from 'react';
 //Boostrap-React
 import 'bootstrap/dist/css/bootstrap.min.css';
+//W3
+import './Styles/W3/w3.css';
 //redux
 import store from './Redux/Store';
 import { Provider } from 'react-redux';
